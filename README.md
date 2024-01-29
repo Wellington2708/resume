@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+![Captura de Tela 2023-12-26 às 17 26 22](https://github.com/Wellington2708/resume/assets/110790543/95169172-5ec2-4c38-ab52-f496f365af84)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Getting Started with NPX Create-React-App
 
 ## Available Scripts
 
@@ -14,57 +14,93 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
+# Wellington Junior's Resume Project
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Welcome to my resume project! This project is dedicated to showcasing Wellington Junior's professional experience, academic history, skills, and spoken languages.
 
-### `npm run build`
+### Experience
+I have gained valuable experience in various roles, including responsibilities such as:
+- Responsible for picking and sending orders to customers.
+- Logistics.
+- Production assistant.
+- Stock organization.
+- Typist
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Academic Background
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Formacion Degree in Human Resource Management**
+  - Faculdade Sul Americana - Fasam
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Skills
 
-### `npm run eject`
+I am a self-taught individual with a keen interest in continuous improvement and learning. My skills include:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- HTML
+- CSS
+- JavaScript
+- React
+- Git
+- Node.js
+- Bootstrap
+- Github
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Spoken Languages
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+I am fluent in Portuguese and can hold conversations in English and Spanish.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+### Project Status
+This project is currently in development, utilizing the React.js library. It involves refactoring an existing project that was originally built with HTML, CSS, and JavaScript. You can check out the [original project](https://github.com/Wellington2708/curriculo) in my GitHub repositories.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### Live Demo
+You can view the project in action by visiting [this link](https://curriculo-pied.vercel.app/). Feel free to explore and provide feedback!
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+# Projeto de Currículo de Wellington Junior
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Bem-vindo ao meu projeto de currículo! Este projeto é dedicado a mostrar a experiência profissional, histórico acadêmico, habilidades e idiomas falados por Wellington Junior.
 
-### Making a Progressive Web App
+### Experiência Profissional
+Adquiri experiência valiosa em várias funções, incluindo responsabilidades como:
+- Responsável pelo picking e envio de pedidos para clientes.
+- Logística
+- Assistente de produção.
+- Organização de estoque.
+- Digitador.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Formação Acadêmica
 
-### Advanced Configuration
+- **Formado em Gestão de Pessoas**
+  - Faculdade Sul Americana - Fasam
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+### Habilidades
 
-### Deployment
+Sou autodidata e interessado em aprimoramento contínuo e aprendizado. Minhas habilidades incluem:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+- HTML
+- CSS
+- JavaScript
+- React
+- Git
+- Node.js
+- Bootstrap
+- Github
 
-### `npm run build` fails to minify
+### Idiomas Falados
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Sou fluente em Português e consigo conversar em Inglês e Espanhol.
+
+
+### Status do Projeto
+Este projeto está atualmente em desenvolvimento, utilizando a biblioteca React.js. Envolve a refatoração de um projeto existente originalmente construído com HTML, CSS e JavaScript. Você pode conferir o [projeto original](https://github.com/Wellington2708/curriculo) nos meus repositórios do GitHub.
+
+### Demonstração Ao Vivo
+Você pode visualizar o projeto em ação visitando [este link](https://curriculo-pied.vercel.app/). Sinta-se à vontade para explorar e fornecer feedback!
+
+
+
+
+
+
