@@ -1,0 +1,63 @@
+:root {
+    --background-body: rgb(166, 176, 177);
+    --cor-principal: #FFFFFF;
+    --cor-link: #1b16b9;
+    --hover-link: rgba(12, 12, 11, 0.548);
+    --dados-contato: hsl(24, 87%, 41%);
+    --cor-preto: black;
+    --cor-cargo: #920c4a;
+    --cor-tabelaTitulo: rgb(177, 64, 19);
+    --period-color: rgb(119, 137, 137);
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.professional,
+.skills {
+    margin: 1em;
+
+}
+
+
+.professional__experience,
+.studies {
+    margin-top: 1.5em;
+}
+
+
+.experience {
+    margin: 15px 0 0 75px;
+    color: var(--cor-preto);
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+h2 {
+    color: var(--cor-cargo);
+    margin: 10px 0 5px 0;
+}
+
+.period {
+    padding: 0.3em;
+    color: var(--period-color);
+}
+
+
+.item{
+    list-style: none;
+
+}
+
+
+@media screen and (max-midia: 738px){
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

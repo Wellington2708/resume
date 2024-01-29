@@ -1,0 +1,127 @@
+:root {
+    --background-body: rgb(166, 176, 177);
+    --cor-principal: #FFFFFF;
+    --cor-link: #1b16b9;
+    --hover-link: rgba(12, 12, 11, 0.548);
+    --dados-contato: hsl(24, 87%, 41%);
+    --cor-preto: black;
+    --cor-cargo: #920c4a;
+    --cor-tabelaTitulo: rgb(177, 64, 19);
+    --period-color: rgb(119, 137, 137);
+
+}
+
+
+:root {
+    --background-body: rgb(166, 176, 177);
+    --cor-principal: #FFFFFF;
+    --cor-link: #1b16b9;
+    --hover-link: rgba(12, 12, 11, 0.548);
+    --dados-contato: hsl(24, 87%, 41%);
+    --cor-preto: black;
+    --cor-cargo: #920c4a;
+    --cor-tabelaTitulo: rgb(177, 64, 19);
+    --period-color: rgb(119, 137, 137);
+
+}
+
+
+body {
+    font-family: 'Teko', sans-serif;
+    font-size: 20px;
+    background: var(--cor-principal)
+}
+
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+
+}
+
+.profile__picture {
+    width: 180px;
+    height: 230px;
+    border-radius: 100%;
+    cursor: grab;
+    transition: 0.2s;
+    margin: 1em;
+
+}
+
+.profile__picture:hover {
+    outline: 2px solid var(--cor-cargo);
+    outline-offset: 10px;
+}
+
+.button {
+    border-radius: 30px;
+    color: var(--cor-principal);
+    background-color: var(--cor-cargo);
+    text-transform: uppercase;
+    padding: 0.7em;
+
+}
+
+.button:hover {
+    background-color: var(--cor-link);
+}
+
+.endFirstPart {
+    border-color: #920c4a;
+}
+
+
+
+@media screen and (max-width: 738px) {
+
+
+
+    body {
+        font-family: 'Teko', sans-serif;
+        font-size: 25px;
+        background: var(--cor-principal)
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10%;
+
+    }
+
+    .profile__picture {
+
+        width: 150px;
+        height: 150px;
+    }
+
+    .name {
+        font-size: 40px;
+        color: var(--cor-preto);
+    }
+
+    strong {
+        color: red;
+    }
+
+    #contact__datas {
+        font-size: 25px;
+    }
+
+
+
+    .button {
+        border-radius: 30px;
+        color: var(--cor-principal);
+        background-color: var(--cor-cargo);
+        text-transform: uppercase;
+        padding: 0.7em;
+
+    }
+
+}
