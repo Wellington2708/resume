@@ -1,35 +1,24 @@
 :root {
     --background-body: rgb(166, 176, 177);
-    --cor-principal: #FFFFFF;
-    --cor-link: #1b16b9;
+    --white: #FFFFFF;
+    --blue: #1b16b9;
     --hover-link: rgba(12, 12, 11, 0.548);
-    --dados-contato: hsl(24, 87%, 41%);
-    --cor-preto: black;
-    --cor-cargo: #920c4a;
-    --cor-tabelaTitulo: rgb(177, 64, 19);
-    --period-color: rgb(119, 137, 137);
+    --dark-orange: rgb(177, 64, 19);
+    --black: #000;
+    --dark-magenta: #920c4a;
+    --gray: rgb(119, 137, 137);
+    --dark-gray: #0c0c0b8c;
+    --font: 'Teko', sans-serif;
+
 
 }
 
-
-:root {
-    --background-body: rgb(166, 176, 177);
-    --cor-principal: #FFFFFF;
-    --cor-link: #1b16b9;
-    --hover-link: rgba(12, 12, 11, 0.548);
-    --dados-contato: hsl(24, 87%, 41%);
-    --cor-preto: black;
-    --cor-cargo: #920c4a;
-    --cor-tabelaTitulo: rgb(177, 64, 19);
-    --period-color: rgb(119, 137, 137);
-
-}
 
 
 body {
-    font-family: 'Teko', sans-serif;
-    font-size: 20px;
-    background: var(--cor-principal)
+    font-family: var(--font);
+    font-size: 24px;
+    background: var(--white)
 }
 
 
@@ -37,40 +26,97 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10%;
+    gap: 2.5em;
 
 }
 
-.profile__picture {
+
+.image .profile__picture {
     width: 180px;
-    height: 230px;
-    border-radius: 100%;
-    cursor: grab;
+    height: auto;
+    border-radius: 50%;
     transition: 0.2s;
-    margin: 1em;
+    margin: 1em 0;
+    cursor: pointer;
 
 }
 
 .profile__picture:hover {
-    outline: 2px solid var(--cor-cargo);
-    outline-offset: 10px;
+    transform: scale(1.05);
+    border: solid 2px var(--dark-magenta);
+    box-shadow: 0 0 10px var(--dark-magenta);
+    transition: 0.2s;
 }
 
 .button {
-    border-radius: 30px;
-    color: var(--cor-principal);
-    background-color: var(--cor-cargo);
+    border-radius: 20px;
+    color: var(--white);
+    background-color: var(--dark-magenta);
     text-transform: uppercase;
     padding: 0.7em;
 
 }
 
 .button:hover {
-    background-color: var(--cor-link);
+    background-color: var(--blue);
+    cursor: pointer;
+}
+
+.header__list__contacts {
+    font-size: 20px;
+    color: var(--dark-orange);
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.name {
+    font-size: 25px;
+    color: var(--black);
+}
+
+.fa-envelope {
+    color: var(--dark-magenta);
+    margin: 0;
+    padding: 0;
+}
+
+.fa-github {
+    color: var(--white);
+    background-color: var(--black);
+}
+
+.githubIcon{
+    color: var(--black);
+}
+
+/* waiting links fasam and alura */
+
+.email,
+.linkedin,
+.gitHub {
+    margin-left: 5px;
+    text-decoration: none;
+}
+
+/* waiting links fasam and alura */
+.email:hover,
+.linkedin:hover,
+.gitHub:hover {
+    color: var(--dark-gray);
+}
+
+.link__color,
+a {
+    color: var(--blue);
+
 }
 
 .endFirstPart {
     border-color: #920c4a;
+    box-sizing: border-box;
+
 }
 
 
@@ -80,48 +126,17 @@ body {
 
 
     body {
-        font-family: 'Teko', sans-serif;
-        font-size: 25px;
-        background: var(--cor-principal)
+        font-size: 28px;
+        background: var(--white)
     }
 
     .header {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        gap: 10%;
-
-    }
-
-    .profile__picture {
-
-        width: 150px;
-        height: 150px;
+        justify-content: space-around;
+        margin: 0 1em;
     }
 
     .name {
-        font-size: 40px;
-        color: var(--cor-preto);
-    }
-
-    strong {
-        color: red;
-    }
-
-    #contact__datas {
-        font-size: 25px;
-    }
-
-
-
-    .button {
-        border-radius: 30px;
-        color: var(--cor-principal);
-        background-color: var(--cor-cargo);
-        text-transform: uppercase;
-        padding: 0.7em;
-
+        font-size: 36px;
     }
 
 }
