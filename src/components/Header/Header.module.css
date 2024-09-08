@@ -116,6 +116,7 @@ a {
 .endFirstPart {
     border-color: #920c4a;
     box-sizing: border-box;
+    margin-top: 1em;
 
 }
 
@@ -131,12 +132,21 @@ a {
     }
 
     .header {
-        justify-content: space-around;
+        flex-direction: column;
         margin: 0 1em;
+        justify-content: space-between;
+    }
+
+    .image {
+        height: 200px;
     }
 
     .name {
         font-size: 36px;
+    }
+
+    .button {
+        margin-bottom: 2em;
     }
 
 }
