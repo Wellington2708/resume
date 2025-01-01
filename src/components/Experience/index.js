@@ -1,4 +1,4 @@
-import JobExperience from '../JobExperience'
+import ExperienceComponent from '../ExperienceComponent'
 function Experience() {
     const bodum = {
         subtitle: "Production Operator - Bodum - Gafanha da Encarnação - Portugal",
@@ -42,16 +42,16 @@ function Experience() {
         ]
     };
 
-    const galpTrofa = {
-        subtitle: "Front attendant/Supplier - GALP TROFA - Portugal",
-        period: "Date: 2020-01-01 to 2020-06-15",
-        tasks: [
-            "Responsible for fueling customer vehicles.",
-            "Washing and drying.",
-            "Inventory supply.",
-            "Stock organization and cleaner."
-        ]
-    };
+    // const galpTrofa = {
+    //     subtitle: "Front attendant/Supplier - GALP TROFA - Portugal",
+    //     period: "Date: 2020-01-01 to 2020-06-15",
+    //     tasks: [
+    //         "Responsible for fueling customer vehicles.",
+    //         "Washing and drying.",
+    //         "Inventory supply.",
+    //         "Stock organization and cleaner."
+    //     ]
+    // };
 
     const decorGoiania = {
         subtitle: "Production Assistant - DECOR - Goiânia - BR",
@@ -74,29 +74,25 @@ function Experience() {
         ]
     };
 
-    const cebramenGoiania = {
-        subtitle: "Administrative Assistant – CEBRAMEN - Goiânia - BR",
-        period: "Date: 2018-03-08 to 2019-07-07 - Goiânia - BR ",
-        tasks: [
-            "Responsible for charging for services provided.",
-            "Invoice Control.",
-            "Typist.",
-            "Accounts payable control"
-        ]
-    };
+    // const cebramenGoiania = {
+    //     subtitle: "Administrative Assistant – CEBRAMEN - Goiânia - BR",
+    //     period: "Date: 2018-03-08 to 2019-07-07 - Goiânia - BR ",
+    //     tasks: [
+    //         "Responsible for charging for services provided.",
+    //         "Invoice Control.",
+    //         "Typist.",
+    //         "Accounts payable control"
+    //     ]
+    // };
 
     return (
         <>
-            <JobExperience {...bodum} />
-            <JobExperience {...tensai} />
-            <JobExperience {...bruma} />
-            <JobExperience {...natuflores} />
-            <JobExperience {...galpTrofa} />
-            <JobExperience {...cebramenGoiania} />
-            <JobExperience {...cdiGoiania} />
-            <JobExperience {...decorGoiania} />
-
-
+            <ExperienceComponent {...bodum} />
+            <ExperienceComponent {...tensai} />
+            <ExperienceComponent {...bruma} />
+            <ExperienceComponent {...natuflores} />
+            <ExperienceComponent {...cdiGoiania} />
+            <ExperienceComponent {...decorGoiania} />
         </>
     );
 }

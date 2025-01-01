@@ -1,6 +1,6 @@
 import ExperienceCSS from '../Experience/Experience.module.css'
 
-function JobsExperience({ subtitle, period, tasks }) {
+function ExperienceComponent({ subtitle, period, tasks }) {
     return(
     <div className={ExperienceCSS.professional__experience}>
         <h2>{subtitle}</h2>
@@ -14,4 +14,4 @@ function JobsExperience({ subtitle, period, tasks }) {
     </div> )
 };
 
-export default JobsExperience;
+export default ExperienceComponent;
